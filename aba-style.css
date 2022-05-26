@@ -13,6 +13,7 @@ body {
 #title {
     background: rgb(239, 163, 63);
     background: linear-gradient(-25deg, rgba(239, 163, 63, 1) 0%, rgba(242, 145, 0, 1) 100%);
+     text-align: left;
 }
 
 /* Navigation-Bar */
