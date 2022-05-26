@@ -1,0 +1,151 @@
+body {
+    font-family: oswald-bold;
+    color: #1b1a17;
+    font-size: 20px;
+    background: rgb(239, 163, 63);
+    background: linear-gradient(-25deg, rgba(239, 163, 63, 1) 0%, rgba(242, 145, 0, 1) 100%);
+    text-align: center;
+}
+
+/* --------------------------- Rrgistration ------------------------------ */
+
+/* title */
+#title {
+    background: rgb(239, 163, 63);
+    background: linear-gradient(-25deg, rgba(239, 163, 63, 1) 0%, rgba(242, 145, 0, 1) 100%);
+}
+
+/* Navigation-Bar */
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.navbar-brand {
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: montserrat-light
+}
+
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+/* logo */
+
+.logo {
+    width: 30%;
+}
+
+/* anmeldung-button */
+
+.anmeldung-button {
+    background-color: #e6d5b8;
+
+}
+
+.anmeldung-link {
+    color: orangered;
+}
+
+/* registration */
+
+#registration {
+    text-align: center;
+    background: rgb(239, 163, 63);
+    background: linear-gradient(-25deg, rgba(239, 163, 63, 1) 0%, rgba(242, 145, 0, 1) 100%);
+    padding: 2rem;
+    margin: 0rem;
+}
+
+
+/* testimonials */
+
+#testimonials {
+    background-color: rgb(239, 163, 63);
+    background: linear-gradient(-25deg, rgba(239, 163, 63, 1) 0%, rgba(242, 145, 0, 1) 100%);
+    text-align: center;
+    color: #ffff;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+    margin: 6rem;
+    padding-top: 10rem;
+}
+
+
+/* table */
+#table-middel {
+    text-align: center;
+    background: rgb(239, 163, 63);
+    background: linear-gradient(-25deg, rgba(239, 163, 63, 1) 0%, rgba(242, 145, 0, 1) 100%);
+}
+
+.table-space {
+    margin: 20px 50px 30px 50px;
+}
+
+.input-aba {
+    border-radius: 20px;
+    background-color: #e6d5b8;
+    width: 250px;
+    border: 0ch;
+    height: 30px;
+}
+
+.next-button {
+    background-color: #e6d5b8;
+    color: orangered;
+    margin-left: 30px;
+}
+
+.next-link {
+    font-size: 1.2rem;
+    font-family: montserrat-light
+}
+
+/* footer */
+#foot {
+    text-align: center;
+    padding-top: 2%;
+    background: rgb(239, 163, 63);
+    background: linear-gradient(-25deg, rgba(239, 163, 63, 1) 0%, rgba(242, 145, 0, 1) 100%);
+}
+
+.footer-contact {
+    color: black;
+}
+
+.footer-logo {
+    margin: 1.5rem;
+}
+
+
+
+/* --------------------------- Login ------------------------------ */
+
+#login-body {
+    background: rgb(239, 163, 63);
+    background: linear-gradient(-25deg, rgba(239, 163, 63, 1) 0%, rgba(242, 145, 0, 1) 100%);
+    margin: 2rem;
+
+}
+
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.signin-btn {
+    padding: 10px;
+}

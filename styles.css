@@ -1,0 +1,183 @@
+/* https://hishammerdan.github.io/tinStud1/ */
+body {
+    font-family: montserrat;
+}
+
+
+#title {
+    background: rgb(239,163,63);
+background: linear-gradient(-25deg, rgba(239,163,63,1) 0%, rgba(242,145,0,1) 100%);
+    /* background-color: #ff4c68; */
+    /* background-image: url("/Users/hishammerdan/Documents/UNI/WI-Projekt/TinDog-Start-master/images/IMG_4880.jpg");
+    background-size: 100%; */
+    color: #fff;
+}
+
+h1 {
+    font-family: Montserrat-black;
+    font-size: 3.5rem;
+    height: 1.5;
+}
+
+h2 {
+    font-family: montserrat-bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: montserrat-bold;
+    size: 1.5rem;
+    margin: 0;
+
+}
+
+.p-color {
+    color: #8f8f8f;
+
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+/* Navigation-Bar */
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.navbar-brand {
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: montserrat-light
+}
+
+/* download-butten */
+.download-butten {
+    margin: 5% 3% 5% 0;
+}
+
+/* tittel-img */
+
+.tittel-img {
+    transform: rotate(25deg);
+    width: 18rem;
+    position: absolute;
+    right: 30%;
+}
+
+
+/* features */
+#features {
+    padding: 7% 15%;
+    position: relative;
+background-color: #fff;
+}
+.features-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+/* testimonials */
+
+#testimonials {
+    background-color: #ef8172;
+    text-align: center;
+    color: #ffff;
+    background-image: url("../images/IMG_4880.jpg"); 
+    background-size: 100%;
+}
+
+.testimonial-image {
+    width: 20%;
+    border-radius: 100%;
+    margin: 10%;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+#press {
+    background-color: white;
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* pricing */
+#pricing{
+    text-align: center;
+    padding: 100px;
+}
+.pricing-colum{
+    padding: 3% 2%;
+
+}
+/* call-to-action */
+#cta{
+    text-align: center;
+    /* background-color: #ff4c68; */
+    background: rgb(239,163,63);
+    background: linear-gradient(-25deg, rgba(239,163,63,1) 0%, rgba(242,145,0,1) 100%);
+    
+    color: white;
+    padding: 7% 15%;
+}
+.cta-heading{
+    font-family: montserrat-black;
+    font-size: 2.5rem;
+    line-height: 1.5rem;
+}
+
+/* footer */
+#footer{
+    text-align: center;
+    padding: 2%;
+    background-color: white;
+}
+.footer-logo{
+    margin: 1.5%;
+
+}
+.footer-contact{
+color: black;
+}
+.logo{
+    width: 30%;
+  }
+@media(max-width: 1100px){
+    #title{
+        text-align: center;
+    }
+    .tittel-img {
+        position: static;
+        transform: rotate(0);
+    }
+    .cta-heading{
+        font-size: 1.5rem;
+        line-height: 1rem;
+    }
+}
